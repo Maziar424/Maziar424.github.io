@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="basiccalendar.js"></script>
+    <title>Shop - Your Plant Shop</title>
+</head>
+ <body>
+     
+  <header>
+      <div class="container">
+        <h1><img src="Images/logo.png" alt="logo for plant shop"></h1>
+        <h2>Our Plant Shop</h2>
+      </div>
+  </header>
+
+  <div class="nav">
+    <a href="index-home.html">Home</a>
+    <a href="today.html">Deal</a>
+    <div class="dropdown">
+      <button class="dropbtn">Products 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Gardenplant.html">Garden Plants</a>
+        <a href="HomePlant.html">Home Plants</a>
+      </div>
+    </div> 
+    <a href="about.html">Contact Us</a>
+</div>
+
+
+        <section class="header">
+            <div class="container">
+                <h2>Welcome to Our Plant Shop</h2>
+                <p>Find the the best plants for your home and garden.</p>
+                <a href="mailto:bmc222309200@student.bmet.ac.uk?subject=New order-Date..." class="cta-button">Order your Own</a>
+            </div>
+        </section>
+        
+        <div class="gallery">
+          <div class="box">    
+          <img src="Images/plant-1.jpg" alt="...">
+                <h5>Cycas Revoluta</h5>
+                <p>Today's Price £19.99</p>
+                <a href="shop.html">Buy now</a>
+              </div>
+              <div class="box">
+              <img src="Images/plant-2.jpg" alt="...">
+                <h5>Common box</h5>
+                <p>Today's Price £9.99</p>
+                <a href="shop.html" class="btn btn-primary">Buy now</a>
+              </div>
+      </div>
+
+
+
+
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4078.5993564251326!2d-1.82154114576658!3d52.566904239819195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a5a59e766d1f%3A0xacfaac31a4bed46!2sSutton%20Coldfield%20College!5e0!3m2!1sen!2suk!4v1701808893152!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div id="calender">
+    <script id="calender" type="text/javascript">
+
+      var todaydate=new Date()
+      var curmonth=todaydate.getMonth()+1 
+      var curyear=todaydate.getFullYear() 
+      
+      document.write(buildCal(curmonth ,curyear, "main", "month", "daysofweek", "days", 1));
+      </script>
+      </div> 
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Our Plant Shop. All rights reserved.</p>
+            <p>Contact us at: bmc222309200@student.bmet.ac.uk</p>
+            <p>Follow us on social media: <a href="about.html" >Facebook</a>, <a href="about.html">Twitter</a>, <a href="about.html">Instagram</a></p>
+        </div>
+    </footer>
+
+  </body>
+
+</html>
